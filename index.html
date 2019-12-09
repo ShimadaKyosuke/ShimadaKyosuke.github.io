@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>島田恭輔</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <!--<link rel="stylesheet" href="stylesheet.css">-->
   </head>
   <body>
@@ -13,7 +14,10 @@
     <p>がんばるぞい</p>
     <p>天下一品</p>
     <div>私の戦闘力は</div><input tyoe="text" id = "power" value="53"></div><div>万です！！！</div>
-    <input type="button" value="精神と時の部屋" onclick="OnButtonClick();">
+    <!--<input type="button" value="精神と時の部屋" onclick="OnButtonClick();">-->
+    <a class="is-danger" value="精神と時の部屋" onclick="OnButtonClick();">
+
+  is-danger
    <script language="javascript" type="text/javascript">
    function OnButtonClick() {
      var sentouryoku = document.getElementById('power').value;
