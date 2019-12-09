@@ -16,7 +16,7 @@
     <input type="button" value="戦闘力UP" onclick="OnButtonClick();">
    <script language="javascript" type="text/javascript">
    function OnButtonClick() {
-     var sentouryoku = document.getElementById('power');
+     var sentouryoku = document.getElementById('power').value;
      sentouryoku++;
      document.getElementById('power').innerHTML = sentouryoku;
    }
