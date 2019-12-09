@@ -5,3 +5,6 @@ function test(){
 function clearSentouryoku(){
   document.getElementById('power').value = "0";
 };
+function shugyo(){
+  document.getElementById('power').value++;
+};
