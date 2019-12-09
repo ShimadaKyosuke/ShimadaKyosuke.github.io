@@ -1,4 +1,4 @@
 console.log("testtttttttt");
-fuction test(){
+function test(){
   console.log("aaaa");
 }
