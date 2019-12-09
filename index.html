@@ -12,13 +12,15 @@
     </font>
     <p>がんばるぞい</p>
     <p>天下一品</p>
-    <p>sentouryoku + str</p>
-    <input typr="button" value="戦闘力UP" onclick="OnButtonClick();"></button>
+    <div id = "power"></div>
+    <input type="button" value="戦闘力UP" onclick="OnButtonClick();"></button>
    <script language="javascript" type="text/javascript">
    function OnButtonClick() {
      var sentouryoku = 53;
      var str = "万"
+     
      sentouryoku++;
+     document.getElementById('output').html(sentouryoku+str);
    }
  </script>
   </body>
